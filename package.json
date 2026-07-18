@@ -1,0 +1,19 @@
+{
+  "name": "x402-mock-facilitator",
+  "version": "0.1.0",
+  "description": "TEST-ONLY x402 facilitator: real EIP-712 signature verification, fake settlement. No RPC, no gas, no real funds.",
+  "type": "module",
+  "main": "worker.js",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "node --check worker.js"
+  },
+  "dependencies": {
+    "viem": "^2"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
